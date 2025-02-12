@@ -1,0 +1,1 @@
+import{d as e,_ as t,c as s,o}from"./app-DTuVoba0.js";const a=e({compatConfig:{MODE:3},name:"JhiDocs"}),r={src:"/swagger-ui/index.html",width:"100%",height:"900",seamless:"",target:"_top",title:"Swagger UI",class:"border-0","data-cy":"swagger-frame"};function c(n,i,d,_,m,p){return o(),s("iframe",r)}const g=t(a,[["render",c]]);export{g as default};

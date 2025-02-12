@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "com.example.todoapp.config.ApplicationProperties",
+      "sourceType": "com.example.todoapp.config.ApplicationProperties"
+    },
+    {
+      "name": "application.liquibase",
+      "type": "com.example.todoapp.config.ApplicationProperties$Liquibase",
+      "sourceType": "com.example.todoapp.config.ApplicationProperties",
+      "sourceMethod": "getLiquibase()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.liquibase.async-start",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.todoapp.config.ApplicationProperties$Liquibase"
+    }
+  ],
+  "hints": []
+}
